@@ -8,7 +8,7 @@ export default function Timer() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       const now = new Date();
-      const targetTime = new Date(now.getFullYear(), 9, 23, 15, 0, 0);
+      const targetTime = new Date(now.getFullYear(), 9, 23, 15, 30, 0);
 
       const diff = targetTime - now;
 
